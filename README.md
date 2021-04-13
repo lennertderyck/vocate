@@ -1,5 +1,5 @@
 # vocate
-A microservice to notify people about a deployment
+A microservice to notify people about deployments
 
 - webhook
 - key
