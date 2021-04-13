@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
 const { SMTP_ACCOUNT, SMTP_PASSWORD } = process.env;
-console.log(SMTP_ACCOUNT, SMTP_PASSWORD)
+
 const transport = nodemailer.createTransport({
     host: 'mail.zxcs.nl',
     port: 465,
